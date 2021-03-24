@@ -1,27 +1,34 @@
-.p1{
-	background-color:white;
-}
+	.p1{
+		background-color:white;
+	}
 
 
-.mrapper{
-display:flex;
-justify-content:space-evenly;
-width:100%;
-margin-top:40%;
+	.mrapper{
+	display:flex;
+	justify-content:space-evenly;
+	width:100%;
+	margin-top:20%;
+	font-family: 'Quicksand', sans-serif;
 
-}
-.child{
-width:100px;
-background-color:gray;
-text-align:center;
-}
-.child p {
-font-size:15px;
 
-}
-.icon1{
-padding-top:10px;
-}
+	}
+	.child{
+	width:100px;
+	background-color:#fff;
+	text-align:center;
+	border: 1px solid #770101;
+	border-radius: 20px;
+	border-right: 0px;
+	border-top: 0px ;
+	}
+	.child p {
+	font-size:15px;
+	font-weight:bolder;
+
+	}
+	.icon1{
+	padding-top:10px;
+	}
 
       
       .slideshow{
@@ -37,4 +44,50 @@ padding-top:10px;
       margin-right:5px;
       margin-bottom:10px;
       border:1px;
-      border-radius:10px;
+      border-radius:10px;}
+
+      .page--backt__background {
+            background: url('images/back1.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+        .logintitle{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 70px;
+        }
+       
+           
+        
+        input[type=text]{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px; 
+        color:#770101; 
+        border-color:#000;
+        text-align: center;
+
+       }
+
+       .page--main1__background {
+        background: url('images/back1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+       }
+       .page--main2__background {
+        background: url('images/back3.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+       }
+       .intro{
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 70px;
+        text-align: center;
+        margin-top : 20%;
+        
+       }
