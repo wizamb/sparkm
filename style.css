@@ -1,0 +1,40 @@
+.p1{
+	background-color:white;
+}
+
+
+.mrapper{
+display:flex;
+justify-content:space-evenly;
+width:100%;
+margin-top:40%;
+
+}
+.child{
+width:100px;
+background-color:gray;
+text-align:center;
+}
+.child p {
+font-size:15px;
+
+}
+.icon1{
+padding-top:10px;
+}
+
+      
+      .slideshow{
+      margin-top:20px;
+      
+      margin-left:5px;
+      margin-right:5px;
+      border:1px;
+      border-radius:10px;
+      }
+      .nav1{
+      margin-left:5px;
+      margin-right:5px;
+      margin-bottom:10px;
+      border:1px;
+      border-radius:10px;

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="onsen/css/onsenui.css">
+<link rel="stylesheet" href="onsen/css/onsen-css-components.min.css">
+<script src="onsen/js/onsenui.min.js"></script>
+
+
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+<ons-page class>
+
+<ons-navigator swipeable id="navigator" page="login.html" ></ons-navigator>
+
+
+
+<template id="login.html">
+<ons-page id="login">
+<div style="text-align:center; ">
+<p>
+<div class="header1" style="margin-top:20px;">
+<h2>provide phone number </h2>
+</div>
+</p>
+<form method="POST">
+<p style="position:relative; top:50px; margin-bottom:50px;">
+<ons-input id="tel" modifier="underbar" placeholder="Phone Number"  float >
+</ons-input>
+</p>
+
+<p>
+<ons-button  type="submit" style="position:absolute; bottom: 20px; left: 50px ; right: 50px; ">
+Continue
+</ons-button>
+</form>
+</p>
+
+</div>
+</ons-page>
+</template>
+
+<!-- login page ends here -->
+
+<!-- main page starts here -->
+
+
+<template id="main.html">
+
+<ons-page>
+
+<ons-tabbar swipeable class="nav1"> 
+<ons-tab page="shop.html" label="Shop" >
+ <ons-icon icon="fa-store">
+ </ons-icon>
+  
+   </ons-tab>
+    <ons-tab page="major.html" active="true" label="Spark">
+     <ons-icon icon="fa-bolt">
+     </ons-icon>
+     
+     </ons-tab>
+      <ons-tab page="news.html" label="News"> 
+      <ons-icon icon="fa-newspaper">
+      </ons-icon>
+      </ons-tab>
+</ons-tabbar>
+<template id="shop.html">
+<ons-page>
+<ons-toolbar class="toolbar">
+
+ 
+<div class="center toolbar__center" style="text-align:center;">Spare Shop</div>
+  
+  
+   </ons-toolbar>
+
+
+   <ons-card>
+    <img src="images/blog.jpg " alt="Onsen UI" style="width: 100%">
+    <div class="title">
+      Whistling Hustler - KS Mercedes-Benz W124 2JZ 
+    </div>
+    <div class="content">
+      
+     With a deep hum from the exhaust as karan cranked the turbocharged motor, we got rolling, and unlike
+     most 20..
+    </div>
+    <div class="footer" style="display: flex; justify-content: space-around; padding-top:10px;">
+      <Div>By Ashraf</Div>
+      <div>1 Week Ago</div>
+      <div>
+        <ons-icon icon="fa-heart">
+
+        </ons-icon>
+      </div>
+      <div>
+        <ons-icon icon="fa-share">
+
+        </ons-icon>
+      </div>
+    </div>
+  </ons-card>
+
+  <ons-card>
+    <img src="images/blog.jpg " alt="Onsen UI" style="width: 100%">
+    <div class="title">
+      Whistling Hustler - KS Mercedes-Benz W124 2JZ 
+    </div>
+    <div class="content">
+      
+     With a deep hum from the exhaust as karan cranked the turbocharged motor, we got rolling, and unlike
+     most 20..
+    </div>
+    <div class="footer" style="display: flex; justify-content: space-around; padding-top:10px;">
+      <Div>By Ashraf</Div>
+      <div>1 Week Ago</div>
+      <div>
+        <ons-icon icon="fa-heart">
+
+        </ons-icon>
+      </div>
+      <div>
+        <ons-icon icon="fa-share">
+
+        </ons-icon>
+      </div>
+    </div>
+  </ons-card>
+
+  <ons-card>
+    <img src="images/blog.jpg " alt="Onsen UI" style="width: 100%">
+    <div class="title">
+      Whistling Hustler - KS Mercedes-Benz W124 2JZ 
+    </div>
+    <div class="content">
+      
+     With a deep hum from the exhaust as karan cranked the turbocharged motor, we got rolling, and unlike
+     most 20..
+    </div>
+    <div class="footer" style="display: flex; justify-content: space-around; padding-top:10px;">
+      <Div>By Ashraf</Div>
+      <div>1 Week Ago</div>
+      <div>
+        <ons-icon icon="fa-heart">
+
+        </ons-icon>
+      </div>
+      <div>
+        <ons-icon icon="fa-share">
+
+        </ons-icon>
+      </div>
+    </div>
+  </ons-card>
+
+
+</ons-page>
+ 
+</template> 
+
+<!-- Major page starts here-->
+
+<template id="major.html"> 
+  <ons-page class="mainpage">
+  
+  
+  <!-- //slide show starts-->
+  <ons-carousel swipeable auto-scroll overscrollable id="carousel" class="slideshow">
+  
+  <div class="ons-swiper-target">
+  
+  <ons-carousel-item>
+  <img src="images/two.jpg" 
+  style=" max-width:100%; max-height:100%;"
+  >
+  </ons-carousel-item>
+  
+    <ons-carousel-item>
+  <img src="images/two.jpg" 
+  style="max-width:100%; max-height:100%;"
+  >
+  </ons-carousel-item>
+  
+    <ons-carousel-item>
+  <img src="images/three.jpg" 
+  style="max-width:100%; max-height:100%;"
+  >
+  </ons-carousel-item>
+  </div>
+  </ons-carousel>
+  
+ 
+  <!-- //slide show ends -->
+  
+  <!--  Main action buttoms starts here   -->
+  
+  <div class="mrapper">
+  <div class="child child1">
+  <ons-icon size="30px" icon="fa-phone" class="icon1"></ons-icon>
+  <p > Quick Call </p>
+  </div>
+  
+  <div class="child child2">
+  <ons-icon size="30px" icon="fa-calendar" class="icon1"></ons-icon>
+  
+  <p> Appointment</p>
+  
+  </div>
+  
+  
+  </div>
+  
+  
+  <!-- Main action buttons end here -->
+  </ons-page>
+</template> 
+
+
+<!-- Major page starts here -->
+
+<template id="news.html">
+  <ons-page>
+  <ons-toolbar class="toolbar"> 
+  
+  <!--
+  <div class="left toolbar__left">Left content</div>
+  -->
+   <div class="center toolbar__center" style="text-align:center;">New & Tips</div>
+   
+<!--
+    <div class="right toolbar__right">Right content</div> 
+    
+    ---></ons-toolbar> 
+    
+  
+  
+  
+  
+  
+  </ons-page>
+ </template>
+
+
+
+
+</ons-page>
+</template>
+
+<!-- main page ends here -->
+</ons-page>
+
+</body>
+
+
+
+
+</html>
